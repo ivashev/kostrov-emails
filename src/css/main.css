@@ -103,10 +103,6 @@ tr.logo td {
 
 tr.logo td a {
   display: block;
-  height: 94px;
-  background: url("images/logo.png");
-  background-repeat: no-repeat;
-  background-size: 93.5px;
 }
 
 tr.menu td {
