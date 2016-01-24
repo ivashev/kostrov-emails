@@ -130,7 +130,7 @@ tr {
 	}
 
 	&.menu {
-		td {
+		& > td {
 			background: url("../images/menu-background.png");
 			background-size: 100% 60px;
 			background-repeat: no-repeat;
@@ -146,6 +146,10 @@ tr {
 					td {
 						&:first-child {
 							padding-left: 0px;
+						}
+
+						span {
+							padding: 2%;
 						}
 
 						a {
